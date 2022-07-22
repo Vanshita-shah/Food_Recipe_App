@@ -1,5 +1,15 @@
 form = document.querySelector('form')
+search=document.querySelector("ion-icon");
 
+console.log(search);
+
+search.addEventListener('click', function(e) {
+  
+  e.preventDefault();
+  inpValue = document.getElementById("my_input").value
+ 
+  fetchDataAPI(inpValue)
+})
 form.addEventListener('submit', function(e) {
     e.preventDefault();
     inpValue = e.target.querySelector('input').value
