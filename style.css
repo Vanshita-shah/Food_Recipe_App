@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* background: ; */
+  background: "image.jpg";
+  background-size: auto;
+  
 }
 img {
   width: 100%;
@@ -21,7 +25,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: rgb(26, 26, 27);
+  /* background-color: rgb(26, 26, 27); */
 }
 
 .container {
@@ -35,7 +39,7 @@ section {
 .brand {
   text-align: center;
   font-size: 4rem;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   margin-bottom: 30px;
 }
 
@@ -43,7 +47,7 @@ form {
   width: 90%;
   max-width: 400px;
   margin: 20px auto;
-  background-color: rgb(223, 223, 223);
+  background-color: white;
   border-radius: 25px;
 } 
 input {
